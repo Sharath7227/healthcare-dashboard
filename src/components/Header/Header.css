@@ -1,0 +1,84 @@
+.header {
+  height: 70px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+  margin-left: 1px; /* to offset fixed sidebar */
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 220px;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.dot {
+  color: #3498db;
+}
+
+.search-bar {
+  flex: 1;
+  margin: 0 30px;
+  position: relative;
+  max-width: 400px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px 40px 10px 15px;
+  border: 1px solid #dcdde1;
+  border-radius: 8px;
+  background-color: #f5f6fa;
+  font-size: 14px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.add-button {
+  font-size: 22px;
+  color: #3498db;
+  cursor: pointer;
+}
+
+.notification-icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.username {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2c3e50;
+}

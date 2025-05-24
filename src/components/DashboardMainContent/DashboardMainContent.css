@@ -1,0 +1,37 @@
+.dashboard-main-content {
+  padding: 20px;
+  background-color: #f8f9fb;
+}
+
+.placeholder {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+  color: #7f8c8d;
+}
+
+.main-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.left-section {
+  flex: 1.2;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right-section {
+  flex: 2;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
